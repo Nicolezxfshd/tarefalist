@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Introdução ao Next.js 15",
+    "slug": "introducao-ao-nextjs-15",
+    "author": "Equipe Dev",
+    "date": "2025-09-20",
+    "description": "Aprenda os fundamentos do App Router, Server Components e práticas modernas no Next.js 15.",
+    "content": "# Next.js 15\n\nO Next.js 15 traz melhorias no App Router, suporte aprimorado a Server Actions e otimizações de build. Neste artigo, vamos ver como começar um projeto e entender os conceitos principais.\n\n## App Router\nO App Router organiza as rotas por pasta em `app/` e incentiva o uso de Server Components por padrão.\n\n## Server Components\nComponentes de servidor permitem data fetching direto no componente, sem `useEffect`, melhorando performance e SEO.\n"
+  },
+  {
+    "id": "2",
+    "title": "SEO Dinâmico com App Router",
+    "slug": "seo-dinamico-com-app-router",
+    "author": "Ana Silva",
+    "date": "2025-09-22",
+    "description": "Como usar generateMetadata para criar metadados dinâmicos por página.",
+    "content": "# SEO com App Router\n\nA função `generateMetadata` permite definir `title` e `description` especificamente para cada rota.\n\n### Boas práticas\n- Títulos claros e descritivos\n- Descrições únicas por página\n- URLs amigáveis (slugs)\n"
+  },
+  {
+    "id": "3",
+    "title": "SSG vs SSR: quando usar cada um",
+    "slug": "ssg-vs-ssr-quando-usar",
+    "author": "Carlos Pereira",
+    "date": "2025-09-24",
+    "description": "Entenda as diferenças entre SSG e SSR no Next.js e quando aplicar cada estratégia.",
+    "content": "# SSG x SSR\n\nO SSG (Static Site Generation) pré-renderiza páginas em build time, ideal para conteúdo pouco mutável.\nO SSR (Server-Side Rendering) gera páginas a cada requisição, útil para dados que mudam com frequência.\n"
+  }
+]
