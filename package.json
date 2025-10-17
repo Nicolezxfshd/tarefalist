@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "eslint .",
     "test": "jest --passWithNoTests",
+    "export": "next export",
     "test:watch": "jest --watch"
   },
   "dependencies": {
